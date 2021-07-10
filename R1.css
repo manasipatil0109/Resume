@@ -7,7 +7,7 @@
 }
 
 body {
-  background: peachpuff;
+  background: rgb(243, 188, 196);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,18 +18,142 @@ body {
   width: 100%;
   max-width: 1000px;
   min-height: 1000px;
+  margin:50px ;
   background: #fff;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 5fr;
   box-shadow: 0 35px 55px rgba(0,0,0,0.1);
 }
-.container .left_side{
+.container .left_side
+{
   position: relative;
-  background: purple;
+  background: rgb(160, 24, 69);
   padding: 40px;
+}
+.profileData{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.profileData .photo{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.profileData .photo img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.profileData h2{
+  color: #fff;
+  font-size: 0.8cm;
+  margin-top: 20px;
 }
 .container .right_side{
   position: relative;
   background: #fff;
   padding: 40px;
 }
+.topic{
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.6cm;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.Contact{
+  padding-top: 30px;
+}
+.Contact ul li{
+  color: #fff;
+  margin-bottom: 10px;
+}
+.Contact ul li span{
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+.Personal{
+  padding-top: 10px;
+}
+.Personal ul li{
+  color: #fff;
+  margin-bottom: 10px;
+}
+.Personal ul li h5{
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+.Personal ul li h4{
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.Language{
+  padding-top: 10px;
+}
+.Language ul li{
+  color: #fff;
+}
+.Language ul li h4{
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.objective{
+  margin-bottom: 20px;
+}
+.title{
+  color: rgb(160, 24, 69);
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+#table1
+{
+  border-collapse: collapse;
+}
+th{
+  color:rgb(160, 24, 69);
+  padding: 10px;
+}
+td
+{
+  padding: 5px;
+}
+.content
+{
+  overflow:auto;
+}
+.content .item
+{
+  background: #fff;
+  border-radius: 25px;
+  padding : 50px;
+  margin-bottom: 25px;
+}
+
+.right_side .objective ul li h4{
+  color: rgb(63, 8, 27);
+  font-size: 300;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.right_side .objective ul li h5{
+  font-size: 200;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+
+
+
